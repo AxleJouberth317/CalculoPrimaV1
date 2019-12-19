@@ -7,8 +7,8 @@ public class PrimaVTest {
 
 	@Test
 	public void testMain() {
-		Prima start = new Prima();
-		start.main(null);
+		//Prima start = new Prima();
+		//start.main(null);
 	}
 	
 	@Test
