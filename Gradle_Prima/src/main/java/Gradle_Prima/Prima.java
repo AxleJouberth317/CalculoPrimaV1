@@ -5,7 +5,7 @@ public class Prima {
    System.out.println("Programa para calculo de primas.");
  
    calculoPrima(18,30);
-	
+   calculoPrima(25,27);
    
  }
  
