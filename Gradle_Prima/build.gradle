@@ -1,0 +1,37 @@
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+    id 'java'
+    id 'eclipse'
+    //id "com.github.spotbugs" version "2.0.1"
+    
+    //id 'checkstyle'
+}
+/*
+checkstyleMain {
+    source ='src/main/java/Gradle_Prima'
+}
+checkstyleTest {
+    source ='src/test/java'
+}
+
+tasks.withType(Checkstyle) {
+    reports {
+        xml.enabled false
+        html.enabled true
+        html.stylesheet resources.text.fromFile('config/xsl/checkstyle-custom.xsl')
+    }
+}
+*/
+
+//PMD
+apply plugin: 'pmd'
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
