@@ -6,6 +6,7 @@ public class Prima {
  
    calculoPrima(18,30);
    calculoPrima(25,27);
+   calculoPrima(35,27);
    
  }
  
