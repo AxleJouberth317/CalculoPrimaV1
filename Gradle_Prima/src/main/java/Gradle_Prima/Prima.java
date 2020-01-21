@@ -55,7 +55,7 @@ public class Prima {
    else if( 25 <= edad && edad < 35 ) v = 3;
    else if( 35 <= edad && edad < 45 ) v = 5;
    else if( 45 <= edad && edad < 65 ) v = 7;
-   else if( 65 <= edad && edad <=90 ) v = 5;
+   else if( 65 <= edad && edad <=90 ) v = 4;
    else                               v =-1;//when wrong input
    return v;
  }
